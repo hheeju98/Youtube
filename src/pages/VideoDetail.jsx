@@ -13,7 +13,7 @@ export default function VideoDetail() {
       <article className="basis-4/6">
         <iframe
           id="player"
-          title="title"
+          title={title}
           type="text/html"
           width="100%"
           height="640"
